@@ -1,0 +1,25 @@
+UseEngine
+=========
+
+Mix in engine defined classes in your app classes, for overwriting with custom behaviour.
+
+
+Example
+=======
+
+
+class FrontendUser < User
+  
+  use_engine :nc_backend_basics
+  
+end
+
+class FrontendUser < User
+  
+  use_engine :nc_backend_basics, :version => '0.4.0', :path => 'models'
+  
+end
+
+
+
+Copyright (c) 2010 [ninjaconcept/Marco Sehrer], released under the MIT license
