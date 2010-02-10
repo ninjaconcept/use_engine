@@ -45,7 +45,7 @@ This is an initial release that was only tested on Rails 2.3.5!
 To Do
 =====
 
-- check engines which come as plugins
+- change engine load paths to search in vendor/gems then in vendor/plugins and finally in the system's gems
 - add some unit tests
 
 
